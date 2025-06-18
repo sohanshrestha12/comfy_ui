@@ -61,7 +61,7 @@ class ImageController:
                     saved_images.append({
                         "node_id": node_id,
                         "filename": filename,
-                        "filepath": filepath,
+                        "filepath": str(filepath),
                         "url": f"/api/v1/images/download/{filename}"
                     })
             
